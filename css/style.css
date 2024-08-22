@@ -1,0 +1,255 @@
+html{
+  scroll-padding-top:63px ;
+}
+
+
+/*?  Home SECTION */
+.section1{
+    background-image: url(../imges/hero-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+}
+.section1::after{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+
+}
+.dropdown-item{
+    --bs-dropdown-link-hover-bg: rgb(255, 255, 255);
+   
+}
+.dropdown-item:active{
+    background-color: white;
+}
+
+
+.bg-black-2{
+    background-color: #040404;
+}
+
+ .dropdown-item:hover {
+    color: var(--bs-dropdown-link-hover-color);
+    background-color: var(--bs-dropdown-link-hover-bg);
+  }
+  .w-fit{
+    width: fit-content;
+  }
+  .w-30{
+    width: 30%;
+  }
+  .w-10{
+    width:45px;
+  }
+  .un-li-blue::before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    background-color: #0078ff;
+    top:100%;
+     height: 3px;
+     margin-top: 10px;
+
+  }
+  .box-shadow{
+    box-shadow: -20px 5px 20px 20px rgba(0, 0, 0, 0.06), 1px 7px 20px 1px rgba(0, 0, 0, 0.2);
+}
+.progress{
+  --bs-progress-height: 0.8rem;
+}
+.dashed{
+  width: 45px;
+  height: 5px;
+  
+}
+.icon{
+  width: 40px;
+  height:40px;
+  box-sizing: content-box;
+
+}
+.d-icon{
+  transition: background-color 800ms  ease;
+}
+.icon{
+  transition: background-color 500ms ease ;
+  transition: color 500ms ease ;
+}
+.card:hover .d-icon{
+  background-color: #CDE1F8 !important;
+}
+.card:hover .icon{
+  background-color: #0078ff !important;
+  color: white !important;
+}
+.icon{
+  position: relative;
+}
+.icon i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.bg-1{
+  background-image: url(../imges/counters-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blue-layer{
+  background-color:#0077ff8d ;
+  
+}
+.f-circle{
+  box-shadow: 0px 0px 0 8px white;
+}
+.icon-s{
+  width:33px;
+  height:33px;
+  box-sizing: content-box;
+}
+
+.correct-check-icon::before{
+  margin-top: 0 !important;
+}
+.add-icon{
+ right:10%;
+ top: 0%;
+}
+.fs-19{
+  font-size: 19px;
+}
+.card-hover:hover img{
+transform: scale(1.3);
+}
+.card-hover img{
+  transition: transform 500ms ease;
+}
+.bg-2{
+  background-image: url(../imges/counters2-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.p-6{
+  padding: 5%;
+}
+.blue-layer-update{
+  background-color:#0077ffb4 ;
+}
+.circle-update{
+  width: 100px;
+  height: 100px;
+}
+.carousel-indicators button{
+  width: 10px !important;
+  height: 10px !important;
+  background-color: white;
+  border-radius: 50%;
+}
+.scale-img img{
+  width: 150px;
+  height: 150px;
+}
+.scale-img{
+  width: 150px;
+  height: 150px;
+}
+.mt-10{
+  margin-top: 60px;
+}
+.pointer{
+  cursor: pointer;
+}
+.button-4{
+  position: absolute;
+
+  transform: translate(-50%,-50%);
+}
+.fs-7{
+  font-size: 12px;
+  width: 100px;
+}
+.w-33{
+  width: 33.333%;
+}
+.dashed-update{
+width: 120px;
+height: 5px;
+}
+textarea{
+  resize: none;
+}
+textarea:focus{
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.icon-social div{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px !important;
+height: 40px !important;
+border-radius: 50%;
+box-shadow: 0 0 0 3px #0078ff;
+  margin-right: 30px;
+  font-size: 23px;  
+  margin-block: 10px;
+  transition: 500ms ease background-color,500ms ease color;
+}
+.icon-social{
+  display:flex;
+  flex-wrap:nowrap ;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.icon-social div:hover{
+  background-color: #0078ff;
+  color: white;
+}
+.box-shadow-inner{
+  box-shadow: inset 0 0 9px 0 rgba(0, 0, 0, 0.553);
+}
+.m-n5{
+  margin-bottom: -5%;
+  margin-left: -6%;
+  margin-right: -6%;
+}
+
+.nav-item a::before{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background-color: white;
+  top: 75%;
+  transition: 400ms ease width;
+}
+.nav-item:hover a::before{
+  width: 80%;
+}
+a.dropdown-item.text-black:hover{
+  color: #0078ff !important;
+}
+
+
+
+
+
+
+
