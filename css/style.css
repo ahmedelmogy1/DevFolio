@@ -256,7 +256,7 @@ margin: 0 auto;
   transition: 400ms ease width;
 }
 .nav-item:hover a::before{
-  width: 80%;
+  width: 0;
 }
 a.dropdown-item.text-black:hover{
   color: #0078ff !important;

@@ -6,6 +6,7 @@
   .section1{
     background-size: cover ;
   }
+  
 }
 
 
@@ -22,10 +23,12 @@
 
   }
 
-/* `lg` applies to medium devices (tablets, less than 992px)*/
-/* @media (max-width: 991.98px) { 
-
- } */
+/*`lg` applies to medium devices (tablets, less than 992px)*/
+ @media (min-width: 991.98px) { 
+  .nav-item:hover a::before{
+    width: 80% !important;
+  }
+ }
 
 /* `xl` applies to large devices (desktops, less than 1200px)*/
 /* @media (max-width: 1199.98px) { ... } */
