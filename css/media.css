@@ -1,7 +1,14 @@
 /* `sm` applies to x-small devices (portrait phones, less than 576px)*/
-@media (min-width: 575.98px) { .correct-check-icon{
+@media (min-width: 575.98px) { 
+  .correct-check-icon{
     margin-top: -15%;
-  } }
+  } 
+  .section1{
+    background-size: cover ;
+  }
+}
+
+
 
 /*`md` applies to small devices (landscape phones, less than 768px)*/
  @media (min-width: 767.98px) 

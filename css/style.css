@@ -7,13 +7,17 @@ html{
 .section1{
     background-image: url(../imges/hero-bg.jpg);
     background-position: center;
-    background-attachment: fixed;
+   
     position: relative;
-    background-size: 80% ;
+    background-size:1200px ;
+    background-repeat: no-repeat;
+
+
+    
 }
 .section1::after{
     content: "";
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.694);
     opacity: 0.5;
     position: absolute;
     top: 0;
