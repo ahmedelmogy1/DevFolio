@@ -201,15 +201,19 @@ textarea:focus{
 display: flex;
 justify-content: center;
 align-items: center;
-width: 40px !important;
-height: 40px !important;
+
+
+
 border-radius: 50%;
 box-shadow: 0 0 0 3px #0078ff;
-  margin-right: 30px;
-  font-size: 23px;  
-  margin-block: 10px;
+ 
   transition: 500ms ease background-color,500ms ease color;
 }
+.icon-social i{
+
+font-size: 150%;
+margin: 0 auto;
+} 
 .icon-social{
   display:flex;
   flex-wrap:nowrap ;
@@ -217,6 +221,13 @@ box-shadow: 0 0 0 3px #0078ff;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.icon-s{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5%;
+  margin-right: 4%;
 }
 .icon-social div:hover{
   background-color: #0078ff;
@@ -227,8 +238,8 @@ box-shadow: 0 0 0 3px #0078ff;
 }
 .m-n5{
   margin-bottom: -5%;
-  margin-left: -6%;
-  margin-right: -6%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .nav-item a::before{
