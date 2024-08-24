@@ -9,7 +9,7 @@ html{
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    background-size: cover;
+    background-size: 80% ;
 }
 .section1::after{
     content: "";
