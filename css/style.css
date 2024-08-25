@@ -8,7 +8,7 @@ html{
     background-image: linear-gradient( rgba( 0,0,0, 0.7), rgba( 0 ,0 ,0,0.7)) ,url(../imges/hero-bg.jpg);
     background-position: center;
    background-attachment: fixed;
-    position: relative;
+
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -238,6 +238,13 @@ margin: 0 auto;
 }
 a.dropdown-item.text-black:hover{
   color: #0078ff !important;
+
+}
+.bg-body-tertiary{
+  background-color: #000000 !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 
