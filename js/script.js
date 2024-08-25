@@ -54,3 +54,13 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+document.addEventListener('click', function(event) {
+    var navbarToggler = document.querySelector('.navbar-toggler');
+    var navbarCollapse = document.querySelector('.navbar-collapse');
+  
+    
+    if (!navbarToggler.contains(event.target) && navbarCollapse.classList.contains('show')) {
+      
+      navbarToggler.click();
+    }
+  });
